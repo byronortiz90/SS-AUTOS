@@ -56,7 +56,6 @@ body {
     display: inline-block;
     text-align: center;
     border: none;
-
 }
 
 .boton-amarillo{
@@ -75,6 +74,7 @@ img{
 }
 
 .contenedor {
+    width: 95%;
     max-width: 120rem;
     margin: 0 auto;
 
@@ -111,8 +111,6 @@ h4 {
     background-size: cover;
     height: 100vh;
     min-height: 60rem;
-
-
 }
 
 .contenido-header {
@@ -120,6 +118,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center;
 
 
 }
@@ -174,6 +173,7 @@ header img:hover {
 .iconos-nosotros{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .icono{
@@ -459,6 +459,91 @@ textarea{
     right: 1.5rem;
     width: 4rem;
     cursor: pointer;
+}
+
+@media screen and (max-width:800px){
+    .barra{
+        display: block;
+        text-align: center;
+        
+    }
+
+    .boton{
+        display: block;
+        flex: 0 0 100%;
+    }
+
+    .iconos-nosotros{
+        flex-wrap: wrap;
+    }
+
+    .navegacion a{
+        display: block; 
+        margin: auto;       
+    }
+
+    
+    .contenido-header h1{
+        font-size: 30px;
+    }
+
+    .iconos-nosotros{
+        display: block;
+    }
+
+    .contenedor h2{
+        font-size: 30px;
+    }
+
+    .contenedor-anuncios{
+        display: block;
+    }
+
+    .contenido-contacto{
+        flex: 0 0 95%;
+    }
+
+    .testimoniales{
+        display: block;
+    }
+
+    .testimonial{  
+        font-size: 2rem;
+        width: 90%;
+        text-align: center;
+        margin: 3rem auto;   
+    }
+
+    .contenedor-footer{
+        display: block;
+        text-align: center;
+    }
+
+    .site-footer nav{
+        display: none;
+    }
+
+    .contenedor-galeria{
+        display: block;
+       
+   }
+
+   .img-galeria{
+       width: 90%;
+       align-items: center;
+       justify-content: center;
+       margin: 3rem auto;
+   }
+
+   .showimage{
+       transform: scale(1.4);
+   }
+
+    
+
+
+
+
 }
 
 
