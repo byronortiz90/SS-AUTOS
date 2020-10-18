@@ -99,6 +99,18 @@ h4 {
 
 /* Header */
 
+.menu{
+    display: none;
+}
+
+.menu img{
+    width: 4rem;
+}
+
+.menu img:hover{
+    transform: scale(1.2);
+}
+
 .site-header{
     background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
     padding: 1rem 0 3rem 0;
@@ -148,6 +160,7 @@ header img:hover {
 }
 
 /* Navegación */
+
 
 .navegacion a {
     color: #ffffff;
@@ -545,6 +558,18 @@ textarea{
        margin: auto;
        text-align: center;
    }
+
+   .menu{
+       display: block;
+   }
+
+   #hamburger{
+       display: none;
+   }
+
+   #hamburger:target {
+    display: block;
+}
 
 }
 
