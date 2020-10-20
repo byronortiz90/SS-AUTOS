@@ -167,6 +167,7 @@ header img:hover {
     text-decoration: none;
     font-size: 1.8rem;
     margin-right: 2rem;
+    
 
 }
 
@@ -475,12 +476,7 @@ textarea{
 }
 
 @media screen and (max-width:800px){
-    .barra{
-        display: block;
-        text-align: center;
-        
-    }
-
+    
     .boton{
         display: block;
         flex: 0 0 100%;
@@ -490,12 +486,7 @@ textarea{
         flex-wrap: wrap;
     }
 
-    .navegacion a{
-        display: block; 
-        margin: auto;       
-    }
-
-    
+     
     .contenido-header h1{
         font-size: 30px;
         text-align: center;
@@ -563,14 +554,28 @@ textarea{
        display: block;
    }
 
-   #hamburger{
-       display: none;
+    .navegacion{
+        position: fixed;
+        background-color: #495063;
+        left: 0;
+        box-shadow: rgba(0, 0, 0, .7);
+        top: 110px;
+        width: 50%;
+        font-weight: 300;
+        text-align:center;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-bottom: 10rem;
+        transform: translate(-100%);       
    }
 
-   #hamburger:target {
-    display: block;
-}
+    .navegacion2{
+       transform: translate(0%);
+   }
 
+ 
 }
 
 
