@@ -515,15 +515,13 @@ textarea{
         flex: 0 0 95%;
     }
 
-    .testimoniales{
-        display: block;
-    }
+   
 
     .testimonial{  
         font-size: 2rem;
-        width: 90%;
+        width: 100%;
         text-align: center;
-        margin: 3rem auto;   
+           
     }
 
     .contenedor-footer{
